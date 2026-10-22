@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Paul Silaghi — AI, software, and music systems</title>
+  <desc id="desc">Dark navy technical banner with a cyan signal waveform, connected nodes, and music notation motifs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B16"/>
+      <stop offset="0.55" stop-color="#0B1730"/>
+      <stop offset="1" stop-color="#101E2D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#41E2C1"/>
+      <stop offset="1" stop-color="#58A6FF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9AB8D5" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <ellipse cx="965" cy="190" rx="320" ry="240" fill="url(#glow)"/>
+  <path d="M0 314 C180 285 280 350 465 319 S760 296 920 330 S1090 340 1200 300" fill="none" stroke="#58A6FF" stroke-opacity=".14" stroke-width="1.5"/>
+  <path d="M0 330 C180 301 280 366 465 335 S760 312 920 346 S1090 356 1200 316" fill="none" stroke="#41E2C1" stroke-opacity=".11" stroke-width="1.5"/>
+  <rect x="52" y="56" width="4" height="245" rx="2" fill="url(#accent)"/>
+  <text x="82" y="85" fill="#55E6C5" font-family="SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="3.1">INDEPENDENT DEVELOPER / ROMANIA</text>
+  <text x="78" y="155" fill="#F0F6FC" font-family="Arial,Helvetica,sans-serif" font-size="56" font-weight="700" letter-spacing="-1.6">PAUL SILAGHI</text>
+  <text x="82" y="205" fill="#A6B8CF" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="1.1">AI SYSTEMS. SOFTWARE. MUSIC.</text>
+  <path d="M82 232H440" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+  <text x="82" y="270" fill="#D2DFEE" font-family="SFMono-Regular,Consolas,monospace" font-size="15">LOCAL-FIRST  /  TESTABLE  /  BUILT TO EXPLORE</text>
+
+  <g transform="translate(685 54)">
+    <rect width="455" height="242" rx="16" fill="#07111F" fill-opacity=".78" stroke="#5D789B" stroke-opacity=".42"/>
+    <rect x="20" y="18" width="8" height="8" rx="4" fill="#41E2C1"/>
+    <rect x="34" y="18" width="8" height="8" rx="4" fill="#58A6FF" fill-opacity=".8"/>
+    <rect x="48" y="18" width="8" height="8" rx="4" fill="#A6B8CF" fill-opacity=".5"/>
+    <text x="72" y="26" fill="#8CA4BE" font-family="SFMono-Regular,Consolas,monospace" font-size="11">workbench / live signals</text>
+    <path d="M24 78H430 M24 122H430 M24 166H430 M24 210H430" stroke="#9AB8D5" stroke-opacity=".1"/>
+    <path d="M24 132 L52 132 L64 113 L76 151 L90 87 L106 175 L120 125 L139 125 L152 108 L166 146 L181 96 L197 160 L212 131 L239 131 L254 118 L268 143 L285 98 L303 166 L320 128 L346 128 L361 110 L376 151 L393 122 L430 122" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <g fill="#58A6FF" stroke="#9BD8FF" stroke-width="1.2">
+      <circle cx="90" cy="87" r="4"/><circle cx="181" cy="96" r="4"/><circle cx="285" cy="98" r="4"/><circle cx="376" cy="151" r="4"/>
+    </g>
+    <g fill="none" stroke="#41E2C1" stroke-opacity=".68" stroke-width="1.2">
+      <path d="M70 188L123 176L164 197L224 181L272 199L337 180L388 194"/>
+      <path d="M123 176L143 151M224 181L243 155M337 180L354 151"/>
+    </g>
+    <g fill="#41E2C1">
+      <circle cx="70" cy="188" r="3"/><circle cx="123" cy="176" r="3"/><circle cx="164" cy="197" r="3"/><circle cx="224" cy="181" r="3"/><circle cx="272" cy="199" r="3"/><circle cx="337" cy="180" r="3"/><circle cx="388" cy="194" r="3"/>
+    </g>
+    <text x="25" y="228" fill="#8CA4BE" font-family="SFMono-Regular,Consolas,monospace" font-size="10">AI INFERENCE  •  AUDIO PIPELINES  •  SOFTWARE TOOLS</text>
+  </g>
+  <text x="1140" y="333" text-anchor="end" fill="#7890AA" font-family="SFMono-Regular,Consolas,monospace" font-size="11">PS / 01</text>
+</svg>
